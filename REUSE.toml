@@ -39,3 +39,10 @@ path = ["lang/**/*.json", "src/renderer/assets/languages/*.json"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2025 The BAR Lobby Authors"
 SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+# Mozilla CA certificates bundle from https://curl.se/ca/cacert.pem
+path = ["buildResources/cacert.pem"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Mozilla Foundation"
+SPDX-License-Identifier = "MPL-2.0"
